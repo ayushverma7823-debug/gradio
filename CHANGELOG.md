@@ -1,5 +1,17 @@
 # gradio
 
+## 6.21.0
+
+### Features
+
+- [#13601](https://github.com/gradio-app/gradio/pull/13601) [`0ee5cc8`](https://github.com/gradio-app/gradio/commit/0ee5cc80e2915e5a1b074c892490a62f165cd80d) - Preserve browser-visible proxy origins for frontend assets and API requests, and retain app-level FastAPI root paths.  Thanks @abidlabs!
+- [#13606](https://github.com/gradio-app/gradio/pull/13606) [`04c5527`](https://github.com/gradio-app/gradio/commit/04c552732c461771d935496533289c82e652330f) - Fix spurious separators from empty tokens in `HighlightedText` with `combine_adjacent=True`.  Thanks @hysts!
+
+### Fixes
+
+- [#13605](https://github.com/gradio-app/gradio/pull/13605) [`f3889bf`](https://github.com/gradio-app/gradio/commit/f3889bfa9eb8bc61ed680bd2b9baafc41d4fe866) - Fix `gr.Code` not rendering when it has no initial value.  Thanks @hysts!
+- [#13607](https://github.com/gradio-app/gradio/pull/13607) [`c287b7b`](https://github.com/gradio-app/gradio/commit/c287b7bdccdebd7cebf2db66024e06d9dc9a79ba) - Fix `gr.State` passing its callable default to event handlers instead of the called value.  Thanks @hysts!
+
 ## 6.20.0
 
 ### Features
